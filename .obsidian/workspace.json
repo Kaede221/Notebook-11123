@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "652e5a3fe7aa658b",
+        "id": "26014cee1282e508",
         "type": "tabs",
         "children": [
           {
-            "id": "1f6ca71cd7206e00",
+            "id": "046241847d9c51fd",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": ".gitignore",
+                "bFile": ".gitignore",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: .gitignore"
             }
           }
         ]
@@ -173,11 +177,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2dba754e3478c318",
+  "active": "046241847d9c51fd",
   "lastOpenFiles": [
+    "CTF/MISC/压缩包加密.md",
     "conflict-files-obsidian-git.md",
     "新建 文本文档.txt",
-    "CTF/MISC/压缩包加密.md",
     "CTF/工具汇总/fastcoll MD5 碰撞.md",
     "CTF/MISC",
     "前端/Vue3学习.md",
