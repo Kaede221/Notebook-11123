@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a4c43b1f6582a19f",
+        "id": "b2ff2289341ff2cc",
         "type": "tabs",
         "children": [
           {
-            "id": "e2e59bae02826cf6",
+            "id": "7f1bbbadaaecb4ea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "CTF/工具汇总/fastcoll MD5 碰撞.md",
-                "mode": "source",
-                "source": false
+                "aFile": "CTF/MISC/压缩包加密.md",
+                "bFile": "CTF/MISC/压缩包加密.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "fastcoll MD5 碰撞"
+              "icon": "diff",
+              "title": "Diff: 压缩包加密"
             }
           }
         ]
@@ -164,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +177,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2925105a052deaf6",
+  "active": "7f1bbbadaaecb4ea",
   "lastOpenFiles": [
+    "CTF/MISC/压缩包加密.md",
+    "CTF/MISC",
+    "网安",
+    "未命名.md",
     "前端/Vue3学习.md",
     "CTF/工具汇总/fastcoll MD5 碰撞.md",
     "CTF/Web/MD5 绕过方案.md",

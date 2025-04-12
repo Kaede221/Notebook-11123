@@ -3,5 +3,5 @@
   "trashOption": "none",
   "attachmentFolderPath": "./attachments",
   "showLineNumber": true,
-  "readableLineLength": false
+  "readableLineLength": true
 }
