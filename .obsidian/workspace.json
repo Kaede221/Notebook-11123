@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e3691f1ba42d8ffc",
+        "id": "16d9c4b7c3ea440f",
         "type": "tabs",
         "children": [
           {
-            "id": "11e6d9a546bcfb62",
+            "id": "26443ffc036ebe76",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,8 +173,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2dba754e3478c318",
+  "active": "26443ffc036ebe76",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "CTF/MISC/压缩包加密.md",
     "CTF/MISC",
     "网安",
