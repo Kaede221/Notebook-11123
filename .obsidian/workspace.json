@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dad01e0ccb83231e",
+        "id": "a4c43b1f6582a19f",
         "type": "tabs",
         "children": [
           {
-            "id": "9a1c85d12aad39fc",
+            "id": "e2e59bae02826cf6",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "type": "markdown",
+              "state": {
+                "file": "CTF/工具汇总/fastcoll MD5 碰撞.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fastcoll MD5 碰撞"
             }
           }
         ]
@@ -160,7 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 337.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -173,11 +177,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2dba754e3478c318",
+  "active": "2925105a052deaf6",
   "lastOpenFiles": [
+    "前端/Vue3学习.md",
     "CTF/工具汇总/fastcoll MD5 碰撞.md",
     "CTF/Web/MD5 绕过方案.md",
-    "前端/Vue3学习.md",
     "前端/attachments/image-20250315123534331.png",
     "前端/attachments/image-20250315123318012.png",
     "前端/attachments/image-20250312231039829.png",

@@ -70,7 +70,7 @@ Vue.js - The Progressive JavaScript Framework
 
 ![image-20250307163203726](attachments/image-20250307163203726.png)
 
-## Vue3 的模板语法 + Attribute 绑定
+## Vue3 的模板语法
 
 ### 模板语法
 
