@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "b2ff2289341ff2cc",
+        "id": "e3691f1ba42d8ffc",
         "type": "tabs",
         "children": [
           {
-            "id": "7f1bbbadaaecb4ea",
+            "id": "11e6d9a546bcfb62",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": "CTF/MISC/压缩包加密.md",
-                "bFile": "CTF/MISC/压缩包加密.md",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: 压缩包加密"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -164,7 +160,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300.5
+    "width": 341.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7f1bbbadaaecb4ea",
+  "active": "2dba754e3478c318",
   "lastOpenFiles": [
     "CTF/MISC/压缩包加密.md",
     "CTF/MISC",
