@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9d950966e2ae6275",
+        "id": "603f02b28f5d9811",
         "type": "tabs",
         "children": [
           {
-            "id": "f2274ea231348733",
+            "id": "0589f88ff85a6867",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "icon": "lucide-file",
+              "title": "conflict-files-obsidian-git"
             }
           }
         ]
@@ -177,8 +177,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2274ea231348733",
+  "active": "2dba754e3478c318",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "新建 文本文档.txt",
     "CTF/MISC/压缩包加密.md",
     "CTF/工具汇总/fastcoll MD5 碰撞.md",
