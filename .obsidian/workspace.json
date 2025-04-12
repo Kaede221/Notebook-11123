@@ -1,24 +1,20 @@
 {
   "main": {
-    "id": "6bf60d226c17e84c",
+    "id": "3ea5cbff80a7d990",
     "type": "split",
     "children": [
       {
-        "id": "26014cee1282e508",
+        "id": "bdae334d3dbe5d19",
         "type": "tabs",
         "children": [
           {
-            "id": "046241847d9c51fd",
+            "id": "50d20949de4136f9",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitignore",
-                "bFile": ".gitignore",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitignore"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
             }
           }
         ]
@@ -27,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "617d673df6971639",
+    "id": "4374eec53533de1f",
     "type": "split",
     "children": [
       {
-        "id": "f6889e4393d6a5fb",
+        "id": "9f054c4864b82816",
         "type": "tabs",
         "children": [
           {
-            "id": "2925105a052deaf6",
+            "id": "5dfa17fa03b00a6a",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +44,7 @@
             }
           },
           {
-            "id": "e30d3b5393faa440",
+            "id": "eca04ddfa1374442",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +61,7 @@
             }
           },
           {
-            "id": "f0138a98042e94f8",
+            "id": "09a3dd257cd3b190",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "565f2aca2fd6ac6e",
+    "id": "8d3c8d760e20aca4",
     "type": "split",
     "children": [
       {
-        "id": "20ed2d172d237b67",
+        "id": "080975c8c24c0fc7",
         "type": "tabs",
         "children": [
           {
-            "id": "e85bb86a62e186ab",
+            "id": "97bf939120dc746a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF/MISC/MD5 绕过方案.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,11 +99,11 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "MD5 绕过方案 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
-            "id": "1dd87a0ef9da584d",
+            "id": "d948b187639df0f1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -121,36 +116,7 @@
             }
           },
           {
-            "id": "0ccd9c30da5754f3",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "标签"
-            }
-          },
-          {
-            "id": "f677defb684ad41f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大纲"
-            }
-          },
-          {
-            "id": "2dba754e3478c318",
+            "id": "138c484f0400fbc3",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -160,48 +126,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 337.5
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
-      "canvas:新建白板": true,
-      "daily-notes:打开/创建今天的日记": true,
-      "templates:插入模板": true,
-      "command-palette:打开命令面板": true,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "046241847d9c51fd",
-  "lastOpenFiles": [
-    "CTF/MISC/压缩包加密.md",
-    "conflict-files-obsidian-git.md",
-    "新建 文本文档.txt",
-    "CTF/工具汇总/fastcoll MD5 碰撞.md",
-    "CTF/MISC",
-    "前端/Vue3学习.md",
-    "CTF/Web/MD5 绕过方案.md",
-    "前端/attachments/image-20250315123534331.png",
-    "前端/attachments/image-20250315123318012.png",
-    "前端/attachments/image-20250312231039829.png",
-    "前端/attachments/image-20250310085551343.png",
-    "前端/attachments/image-20250309114418130.png",
-    "前端/attachments/image-20250309092900743.png",
-    "前端/attachments/image-20250309092848391.png",
-    "前端/attachments/image-20250307171717090.png",
-    "前端/attachments/image-20250307170430628.png",
-    "前端/attachments/image-20250307165110365.png",
-    "前端/attachments",
-    "CTF/Web/attachments",
-    "CTF/工具汇总/attachments",
-    "CTF/工具汇总",
-    "未命名.canvas",
-    "CTF/Web",
-    "CTF"
-  ]
+  "active": "50d20949de4136f9",
+  "lastOpenFiles": []
 }
