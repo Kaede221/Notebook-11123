@@ -168,6 +168,7 @@ if (isset($_GET['id'])) {
 成功得到 Flag:
 
 ![[attachments/Pasted image 20250412224557.png]]
+
 ### 空格过滤绕过
 
 如果需要过滤空格, 可以使用注释 `/**/` 来绕过. 直接放在语句中间即可代表空格, 比如这样子的 payload:
